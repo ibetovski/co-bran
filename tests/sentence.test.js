@@ -47,7 +47,7 @@ Deno.test("Sentence should be splitted into words", () => {
 
 Deno.test("Sentence should be encoded", () => {
   assertEquals(
-    encodeSentence("Мишо, жив и здрав, гомно бира в корема, хмел в магазина и пачки в джоба"),
+    encodeSentence("Мишо, жив и здрав, много бира в корема, хмел в магазина и пачки в джоба"),
     "Шоми, жив и вардз, гомно раби в мареко, лемх в назигама и кипач в баджо"
   );
 })
